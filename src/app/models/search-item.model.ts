@@ -13,5 +13,14 @@ export interface SearchItem {
     description: string;
     thumbnails: SearchResponseThumbnails;
   };
+  channelTitle: string;
+  tags: string[];
+  categoryId: string;
+  liveBroadcastContent: boolean;
+  localized: {
+    title: string;
+    description: string;
+  };
+  defaultAudioLanguage: string;
   statistics: SearchResponseStatistics;
 }

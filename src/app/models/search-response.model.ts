@@ -8,14 +8,5 @@ export interface SearchResponse {
     totalResults: number;
     resultsPerPage: number;
   };
-  SearchItem: SearchItem[];
-  channelTitle: string;
-  tags: string[];
-  categoryId: string;
-  liveBroadcastContent: boolean;
-  localized: {
-    title: string;
-    description: string;
-  };
-  defaultAudioLanguage: string;
+  items: SearchItem[];
 }
